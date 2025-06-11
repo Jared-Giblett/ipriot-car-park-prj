@@ -1,8 +1,7 @@
-# North Metro Software Python Project Template
+# North Metro Car Park Project
 
-A Python project template for all new projects in North Metro Software
+A Python Car Park project for IP4RIot
 
-You may use the guidelines under `org/` for assessments and projects in the IP4RIoT cluster.
 
 ## Additional Examples
 Here are other good examples of onboarding documents that relate to git and version control for you to browse:
