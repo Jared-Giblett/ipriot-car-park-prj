@@ -1,14 +1,4 @@
 # North Metro Car Park Project
 
-A Python Car Park project for IP4RIot
 
-
-## Additional Examples
-Here are other good examples of onboarding documents that relate to git and version control for you to browse:
-
-- [skybase](https://handbook.skybase.com.np/git-conventions/)
-- [thoughtbot](https://github.com/thoughtbot/guides/tree/main/git) (also see their excellent [code review](https://github.com/thoughtbot/guides/tree/main/code-review) guide!)
-- [GitLab Handbook](https://handbook.gitlab.com/handbook/product-development-flow/)
-
-# Note
-When using this repo as a template, you should update this readme to provide a general overview suitable for **YOUR** project.
+Project for IP4RIot that provides a way for the car park to monitor how many bays are left in the car park. This includes Storing number plates of the cars as they enter the car park. Logging of cars entering and leaving. Updating the display with the number of car bays free.
