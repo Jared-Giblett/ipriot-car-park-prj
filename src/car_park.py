@@ -30,7 +30,7 @@ class CarPark:
         self.plates.append(plate)
         self.update_displays()
 
-    def add_car(self, plate):
+    def remove_car(self, plate):
         self.plates.remove(plate)
         self.update_displays()
 
