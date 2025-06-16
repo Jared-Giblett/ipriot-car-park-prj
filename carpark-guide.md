@@ -487,17 +487,17 @@ Answer the following questions:
 >
 > 1. **Which class is responsible for each of the following pieces of information (and why)?**
 >    - *The number of available bays*
->      `Answer here...`
+>      `CarPark because the car park itself determines the total number of bays`
 >    - *The current temperature*
->      `Answer here...`
+>      `CarPark because the location of the car park determines the temperature`
 >    - *The time*
->      `Answer here...`
+>      `CarPark because the location of the car park determines the local time`
 >
 > 2. **What is the difference between an attribute and a property?**
->    `Answer here...`
+>    `An attribute can be accessed with class.attribute and a property is accessed with a method.`
 >
 > 3. **Why do you think we used a dictionary to hold the data we passed the display? List at least one advantage and one disadvantage of this approach.**
->    `Answer here...`
+>    `You can send multiple values to the display, but they are unordered so the data can be in different orders`
 
 #### 2.7.5. Add a detect vehicle method to the Sensor class
 
