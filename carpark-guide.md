@@ -396,10 +396,16 @@ Now consider, between the `CarPark`, `Sensor`, and `Display` classes, which clas
 
 >Q. Which class is responsible for the number of available bays (and why)?
 >
+>      CarPark because the car park itself determines the total number of bays
+> 
 >Q. Which class is responsible for the current temperature (and why)?
+> 
+>     CarPark because the location of the car park determines the temperature
 >
 >Q. Which class is responsible for the time (and why)?
 >
+>     CarPark because the location of the car park determines the local time
+> 
 --------
 
 ##### 2.7.3.1. Detour: implement available bays
