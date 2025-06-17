@@ -5,6 +5,49 @@ from datetime import datetime
 import json
 
 class CarPark:
+    """
+    A class to represent a car park
+    ...
+    Attributes
+    ----------
+    location : str
+        location of the car park
+    capacity : int
+        how many bays are in the car park
+    log_file : str
+        name of the log_file
+    config_file : str
+        name of the config file
+    plates : list
+        list of car plates
+    displays : list
+        list of display objects
+    sensors : list
+        list of sensor objects
+
+
+
+    Methods
+    -------
+    register(component)
+        adds the component to the correct list (display or sensor)
+    add_car(plate)
+        adds the plate to the list
+        updates the display
+        log car activity
+    remove_car(plate)
+        removes the plate from the list
+        updates the display
+        log the car activity
+    update_display()
+        sends the data to the displays linked to the car park
+    _log_car_activity(plate, action)
+        write the car activity to the log file
+    write_config()
+        writes config to the config file json
+    read_config()
+        reads the json file to class
+    """
     def __init__(self,
                  location = "Unknown",
                  capacity = 100,

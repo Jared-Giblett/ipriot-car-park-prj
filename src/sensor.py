@@ -3,6 +3,18 @@ import random
 
 
 class Sensor(ABC):
+    """
+        An abstract class for sensors
+        ...
+        Attributes
+        ----------
+        id : int
+            The id of the sensor
+        is_active : bool
+            Switch to set the sensor active/inactive
+        car_park : CarPark
+            The car park object
+        """
     def __init__(self, id, car_park, is_active=False):
         self.id = id
         self.is_active = is_active
