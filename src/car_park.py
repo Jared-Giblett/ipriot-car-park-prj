@@ -5,6 +5,7 @@ class CarPark:
     def __init__(self,
                  location = "Unknown",
                  capacity = 100,
+                 log_file=Path("log.txt"),
                  plates = None,
                  displays = None,
                  sensors = None):
@@ -13,6 +14,7 @@ class CarPark:
         self.plates = plates or []
         self.displays = displays or []
         self.sensors = sensors or []
+        self.log_file =
 
     def __str__(self):
         return f"Car park at {self.location}, with {self.capacity} bays."
