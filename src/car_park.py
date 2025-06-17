@@ -62,8 +62,8 @@ class CarPark:
         with self.log_file.open("a") as f:
             f.write(f"{plate} {action} at {datetime.now():%Y-%m-%d %H:%M:%S}\n")
 
-    def write_config(self):
-        with open(self.config_file, "w") as f:
+    def write_config(self, config_file=Path("config.json")):
+        with open(config_file, "w") as f:
             json.dump({"location": self.location,
                        "capacity": self.capacity,
                        "log_file": str(self.log_file)}, f)
