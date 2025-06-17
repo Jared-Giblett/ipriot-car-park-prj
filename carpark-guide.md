@@ -796,7 +796,8 @@ Next, we'll create tests for the `Display` class. These tests will test the `__i
 1. Add a screenshot of the output of the unit tests. If any failed, add a screenshot of the error message and a screenshot after you have fixed the errors:
 
    ```markdown
-   ![Unit tests](screenshots/unit-tests-display.png)
+   ![Unit tests](screenshots/display_test_fail.png)
+   ![Unit tests](screenshots/display_test_pass.png)
    ```
 
 2. Commit your changes to the local repository. Tag the commit with `s7` so your lecturer can find it.
